@@ -1,0 +1,56 @@
+body{
+    color:black;
+    background-color: white;
+    font: arial;
+    cursor: url('./icones/rocket-solid.svg'), auto; 
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    
+}
+a:hover{
+color:pink;
+
+}
+
+
+.container{
+    padding: 0px 50px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid  white;
+    
+}
+
+.headerimg{
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content:center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+
+}
+
+footer a{
+  margin: 40px;
+  text-align: center;
+}
