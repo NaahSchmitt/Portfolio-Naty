@@ -1,6 +1,13 @@
+*{
+    p{
+        font-size: 20px;;
+    }
+}
+
+
 body{
-    color:black;
-    background-color: white;
+    color: #fffaf5;
+    background-color: #104544;
     font: arial;
     cursor: url('./icones/rocket-solid.svg'), auto; 
 }
@@ -14,12 +21,13 @@ ul{
 }
 
 nav a{
-    color:#e5325e;
+    color: #249f9c;
     font-size: 20px;
 }
 
 a:hover{
-color:pink;
+color:#f44786;
+opacity: 0.5;
 
 }
 
@@ -32,6 +40,12 @@ a{
     text-decoration: none;
 }
 
+.tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 header img{
     width: 100px;
     height: 100px;
@@ -41,7 +55,14 @@ header img{
 }
 
 h1{
-    color: #e5325e;
+    color: #c11a62e4;
+}
+h2{
+    color: #d0dede50;
+}
+
+h3{
+    color:#249f9c;
 }
 
 .headerimg{
@@ -56,21 +77,51 @@ footer{
 footer img{
     width: 40px;
     height: 40px;
-
+    border: none;
 }
 
 footer a{
   margin: 40px;
   text-align: center;
+  
+
 }
+
+/*Pagina Sobre Mim */
+
+
 
 .div_header{
   width: 100%;
-  height: 10px;
-  background-color: #e5325e;
+  height: 2px;
+  background-color: #249f9c;
 }
 
 .header_sobre{
     display: flex;
     justify-content: center;
+}
+.linha{
+    width: 100%;
+    height: 1px;
+    background-color: #e5325e;
+}
+.nav_sobre{
+    display: flex;
+}
+
+.nav_sobre p{
+    margin: 50px;
+    padding: 50px;
+    background-color: #249f9d2b;
+    
+}
+
+.text_2{
+    display: flex;
+    flex-direction: column;
+}
+.linha{
+    margin: 100px;
+    width: 300px;
 }
