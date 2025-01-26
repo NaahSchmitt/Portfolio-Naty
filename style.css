@@ -1,18 +1,19 @@
-*{
-    p{
-        font-size: 20px;;
+* {
+    p {
+        font-size: 20px;
+        ;
     }
 }
 
 
-body{
+body {
     color: #fffaf5;
-    background-color: #104544;
+    background-color: #000;
     font: arial;
-    cursor: url('./icones/rocket-solid.svg'), auto; 
+    cursor: url('./icones/rocket-solid.svg'), auto;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -20,70 +21,73 @@ ul{
     padding: 16px;
 }
 
-nav a{
+nav a {
     color: #249f9c;
     font-size: 20px;
 }
 
-a:hover{
-color:#f44786;
-opacity: 0.5;
+a:hover {
+    color: #f44786;
+    opacity: 0.5;
 
 }
 
 
-.container{
+.container {
     padding: 0px 50px;
 }
-a{
-    color:black;
+
+a {
+    color: black;
     text-decoration: none;
 }
 
-.tittle{
+.tittle {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-header img{
+header img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 2px solid  white;
-    
+    border: 2px solid white;
+
 }
 
-h1{
+h1 {
     color: #c11a62e4;
 }
-h2{
+
+h2 {
     color: #d0dede50;
 }
 
-h3{
-    color:#249f9c;
+h3 {
+    color: #249f9c;
 }
 
-.headerimg{
+.headerimg {
     text-align: center;
 }
 
 
-footer{
+footer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-footer img{
+
+footer img {
     width: 40px;
     height: 40px;
     border: none;
 }
 
-footer a{
-  margin: 40px;
-  text-align: center;
-  
+footer a {
+    margin: 40px;
+    text-align: center;
+
 
 }
 
@@ -91,37 +95,178 @@ footer a{
 
 
 
-.div_header{
-  width: 100%;
-  height: 2px;
-  background-color: #249f9c;
+.div_header {
+    width: 100%;
+    height: 2px;
+    background-color: #249f9d38;
 }
 
-.header_sobre{
+.me {
+    color: #249f9c;
+}
+
+.header_sobre {
     display: flex;
     justify-content: center;
 }
-.linha{
+
+.linha {
     width: 100%;
     height: 1px;
     background-color: #e5325e;
 }
-.nav_sobre{
+
+.nav_sobre {
     display: flex;
 }
 
-.nav_sobre p{
+.nav_sobre p {
     margin: 50px;
     padding: 50px;
     background-color: #249f9d2b;
-    
+
 }
 
-.text_2{
+.text_2 {
     display: flex;
     flex-direction: column;
 }
-.linha{
+
+.linha {
     margin: 100px;
     width: 300px;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    margin: 30px;
+
+}
+
+.button a {
+    color: #249f9c;
+}
+
+/*Projetos*/
+
+.container_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #249f9d32;
+}
+
+.kid {
+    width: 50%;
+    height: 200px;
+    background-color: #249f9d32;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.kid a {
+    display: inline-block;
+    margin: 40px;
+    color: #104544;
+    font-size: 20px;
+
+}
+
+.kid:hover {
+    opacity: 85%;
+}
+
+.kid a:hover {
+    color: #ccc;
+}
+
+/*Contato*/
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+.form_contat {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.div_1 {
+    width: 400px;
+    height: 400px;
+    background-color: #0606062b;
+    border: 1px solid #e5325e;
+    border-radius: 10%;
+
+}
+
+.icones_contat {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    row-gap: 30px;
+}
+
+.icone_item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0%;
+}
+
+.icone_item span {
+    padding-left: 10%;
+    font-size: 16px;
+    color: #fffaf5;
+}
+
+label, span{
+    color:#00e5ff
+}
+
+.div_2 {
+    width: 400px;
+    height: 400px;
+    background-color: #0606062b;
+    border: 1px solid #e5325e;
+    border-radius: 10%;
+}
+
+.div_2 form{
+    padding: 20px;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-weight: bold;
+}
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: #0056b3;
 }

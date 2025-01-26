@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
 </head>
+
 <body>
-    contato
+
+    <header class="contato">
+        <h1>Meu Contato</h1>
+    </header>
+
+    <div class="div_header"></div>
+
+    <div class="form_contat">
+
+        <div class="div_1">
+            <div class="icones_contat">
+                <div class="icone_item">
+                    <img src="./icones/comment-dots-solid.svg" alt="Ícone de conversa" width="40px" />
+                    <h2>Vamos Conversar...</h2>
+                </div>
+                <div class="icone_item">
+                    <img src="./icones/envelope-regular.svg" alt="Ícone de email" width="40px" />
+                    <label>E-mail:</label>
+                    <span>Natiely.dev@gmail.com</span>
+                </div>
+                <div class="icone_item">
+                    <img src="./icones/square-phone-solid.svg" alt="Ícone de telefone" width="40px" />
+                    <label>Telefone:</label>
+                    <span>(11) 9 0000-0000</span>
+                </div>
+                <div class="icone_item">
+                    <img src="./icones/location-dot-solid.svg" alt="Ícone de localização" width="40px" />
+                    <label>Localização:</label>
+                    <span>São Paulo/SP</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="div_2">
+            <form action="/submit" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4" placeholder="Conte um pouco sobre você"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="button">
+        <a href="./index.html">➔ Voltar</a>
+    </footer>
+
 </body>
+
 </html>
