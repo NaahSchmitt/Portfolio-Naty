@@ -8,7 +8,7 @@
 
 body {
     color: #fffaf5;
-    background-color: #000;
+    background: linear-gradient(#234a91, #912077, #239691, #249922);
     font: arial;
     cursor: url('./icones/rocket-solid.svg'), auto;
 }
